@@ -1,0 +1,25 @@
+.hn-h2Student{
+    color: var(--bg-blue2);
+    text-shadow: 2px 2px 6px var(--bg-blue1);
+    text-align: center;
+    padding: 10px 0;
+}
+.hn-studentDashbord{
+   background-color: var(--white);
+       padding:  70px 200px ;
+       border-radius: 20px;
+       
+   
+ 
+
+}
+.hn-studentAll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.hn-h3Project{
+    padding: 20px 0;
+}

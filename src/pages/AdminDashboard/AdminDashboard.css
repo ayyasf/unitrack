@@ -1,0 +1,31 @@
+.group-card{
+    border: "1px solid #ddd";
+               border-radius:  10px;
+               padding: 20px;
+               background:var(--bg-blue6);
+              margin-bottom: 25px;
+               box-shadow: 0 2px 6px var(--bg-blue2);
+}
+.hn-pAdmin{
+   color:var(--color-red);
+}
+
+.hn-phasAdminP{
+    font-weight: bold;
+}.adminDash{
+text-align: center;
+padding: 10px 0;
+font-weight: 20px;
+}
+.hn-select{
+    padding: 6px;
+    border-radius: 5px;
+    background-color: var( --bg-blue);
+    border: 2px solid  var(--light-gray);
+    color: var(--bg-blue5);
+}
+.hn-labelFilter{
+    padding: 5px 8px;
+    color: var(--bg-blue2);
+    
+}

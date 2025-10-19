@@ -1,0 +1,46 @@
+.hn-label{
+   
+    padding: 10px;
+      color: var(--bg-blue2);
+}
+.hn-inputName{
+    padding: 15px;
+    border: 2px solid var( --bg-blue);
+          border-radius: 10px;
+          margin: 9px 5px 9px 5px;
+}
+.hn-buttonAdd{
+    padding: 10px;
+    margin: 8px;
+      background-color: var(--bg-blue1);
+    color: var(--primary-text-color) ;
+     border: none;
+    border-radius: 10px;
+}
+.hn-ul{
+    color: var(--bg-gray);
+}
+h3{color:var(--bg-blue2);
+text-shadow: 2px 2px 4px  var(--bg-blue1);}
+.hn-option{
+     padding: 15px;
+    border: 2px solid var( --bg-blue) !important; 
+          border-radius: 10px;
+          margin-left: 10px !important;
+}
+.hn-creatGroup{
+    display: flex;
+    flex-direction: column;
+padding: 40px 0;
+    align-items: center;
+}
+.hn-creatGroup{
+    color: var(--bg-blue2);
+    text-shadow: 2px 2px 4px var(--bg-blue1) ;
+}
+.hn-inplab{
+    padding: 20px 0;
+}
+.hn-label11{
+    display: none;
+}

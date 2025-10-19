@@ -1,0 +1,67 @@
+.hn-login{
+    flex-direction: column;
+    display: flex;
+   align-items: center;
+    padding-top: 15px;
+    justify-content: center;
+}
+.hn-logAndPhoto{
+    display: flex;
+    justify-content: space-around;
+}
+.hn-forget{
+    padding-left:280px;
+    color: var(--bg-gray);
+    padding-top: 5px;
+}
+.hn-or{
+    padding-top: 10px;
+    color: var(--bg-gray)
+}
+.hn-login h2{
+    text-shadow: 2px 2px 6px var(--bg-color);
+      animation: Color 2s  ease-in-out;
+      
+}
+
+.hn-imageLogin{
+    width: 100vh;
+    
+
+}
+
+
+.hn-wel{
+    animation: spineAndColor 2s infinite ease-in-out;
+
+} 
+@keyframes spineAndColor {
+  0% { transform: rotate(0deg); 
+    color: #7096D1;
+}
+  25% { transform: rotate(-180deg);
+color: #6CD4FF; }
+  50% { transform: rotate(-360deg);
+color: #F4B942; }
+  75% { transform: rotate(-180deg);
+color: #3B70C5; }
+  100% { transform: rotate(0deg);
+color: #7096; }
+}
+@keyframes Color {
+  0% { 
+    color: #7096D1;
+
+}
+  25% { 
+color: #6CD4FF; 
+ transform: rotate(-180deg);}
+  50% {
+color: #F4B942; }
+  75% {
+color: #3B70C5; }
+  100% {
+color: #7096; 
+ }
+}
+
